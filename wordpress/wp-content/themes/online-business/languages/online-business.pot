@@ -1,0 +1,394 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-20 10:29+0545\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: 404.php:18
+msgid "404"
+msgstr ""
+
+#: 404.php:19
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:23
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+#: archive.php:50 index.php:48 search.php:53
+msgid "Previous page"
+msgstr ""
+
+#: archive.php:51 index.php:49 search.php:54
+msgid "Next page"
+msgstr ""
+
+#: archive.php:52 index.php:50 search.php:55
+msgid "Page"
+msgstr ""
+
+#: comments.php:35
+#, php-format
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr ""
+
+#: comments.php:41
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:66
+msgid "Comments are closed."
+msgstr ""
+
+#: footer.php:27
+#, php-format
+msgid "Theme Online Business by %s"
+msgstr ""
+
+#: footer.php:27
+msgid "Kantipur Themes"
+msgstr ""
+
+#: functions.php:48
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:93
+msgid "Blue"
+msgstr ""
+
+#: functions.php:98
+msgid "Green"
+msgstr ""
+
+#: functions.php:103
+msgid "Orange"
+msgstr ""
+
+#: functions.php:108
+msgid "Black"
+msgstr ""
+
+#: functions.php:113
+msgid "Grey"
+msgstr ""
+
+#: functions.php:122
+msgid "small"
+msgstr ""
+
+#: functions.php:123
+msgid "S"
+msgstr ""
+
+#: functions.php:128
+msgid "regular"
+msgstr ""
+
+#: functions.php:129
+msgid "M"
+msgstr ""
+
+#: functions.php:134
+msgid "larger"
+msgstr ""
+
+#: functions.php:135
+msgid "L"
+msgstr ""
+
+#: functions.php:140
+msgid "huge"
+msgstr ""
+
+#: functions.php:141
+msgid "XL"
+msgstr ""
+
+#: functions.php:176
+msgctxt "Lato font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:180
+msgctxt "Montserrat font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:202
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:204
+msgid "Add widgets here."
+msgstr ""
+
+#: functions.php:214
+msgid "Footer 1"
+msgstr ""
+
+#: functions.php:216 functions.php:228 functions.php:240
+msgid "Add widgets here to appear in your footer."
+msgstr ""
+
+#: functions.php:226
+msgid "Footer 2"
+msgstr ""
+
+#: functions.php:238
+msgid "Footer 3"
+msgstr ""
+
+#: functions.php:250
+msgid "Homepage Widgets"
+msgstr ""
+
+#: functions.php:252
+msgid "Add widgets here.."
+msgstr ""
+
+#: functions.php:284
+msgid "Expand child menu"
+msgstr ""
+
+#: functions.php:285
+msgid "Collapse child menu"
+msgstr ""
+
+#: header.php:28
+msgid "Skip to content"
+msgstr ""
+
+#: header.php:59
+msgid "Menu"
+msgstr ""
+
+#: search.php:20
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: single.php:25
+msgid "Previous Post"
+msgstr ""
+
+#: single.php:25
+msgid "Previous"
+msgstr ""
+
+#: single.php:26
+msgid "Next Post"
+msgstr ""
+
+#: single.php:26
+msgid "Next"
+msgstr ""
+
+#: inc/customizer.php:42
+msgid "Online Business Pro"
+msgstr ""
+
+#: inc/customizer.php:43
+msgid "Buy Pro"
+msgstr ""
+
+#: inc/footer-widgets.php:10
+msgid "Footer"
+msgstr ""
+
+#: inc/icon-functions.php:37
+msgid "Please define default parameters in the form of an array."
+msgstr ""
+
+#: inc/icon-functions.php:42
+msgid "Please define an SVG icon filename."
+msgstr ""
+
+#: inc/template-tags.php:29
+#, php-format
+msgctxt "post date"
+msgid "Posted on: %s"
+msgstr ""
+
+#: inc/template-tags.php:45
+#, php-format
+msgctxt "post author"
+msgid "By: %s"
+msgstr ""
+
+#: inc/template-tags.php:62
+msgid " , "
+msgstr ""
+
+#: inc/template-tags.php:69
+msgctxt "list item separator"
+msgid ", "
+msgstr ""
+
+#: inc/template-tags.php:72
+#, php-format
+msgid "Tags : %1$s"
+msgstr ""
+
+#: inc/template-tags.php:82
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#: inc/template-tags.php:99 template-parts/content-page.php:34
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#: inc/widgets/featured-blog.php:19
+msgid "Add Widget to Display Featured Blog."
+msgstr ""
+
+#: inc/widgets/featured-blog.php:21
+msgid "Business: Featured Blog"
+msgstr ""
+
+#: inc/widgets/featured-blog.php:27 inc/widgets/featured-blog.php:33
+#: inc/widgets/featured-blog.php:81
+msgid "Latest Blog"
+msgstr ""
+
+#: inc/widgets/featured-blog.php:39 inc/widgets/featured-gallery.php:39
+#: inc/widgets/featured-services.php:39
+msgid "Title:"
+msgstr ""
+
+#: inc/widgets/featured-blog.php:44 inc/widgets/featured-contact.php:38
+#: inc/widgets/featured-gallery.php:44 inc/widgets/featured-partners.php:38
+#: inc/widgets/featured-services.php:44
+msgid "Select Category:"
+msgstr ""
+
+#: inc/widgets/featured-blog.php:51 inc/widgets/featured-contact.php:45
+#: inc/widgets/featured-gallery.php:51 inc/widgets/featured-partners.php:45
+#: inc/widgets/featured-services.php:51 inc/widgets/featured-slider.php:47
+msgid "Recent Posts"
+msgstr ""
+
+#: inc/widgets/featured-blog.php:60 inc/widgets/featured-gallery.php:60
+#: inc/widgets/featured-services.php:60 inc/widgets/featured-slider.php:56
+msgid "Choose Number (Max: 6)"
+msgstr ""
+
+#: inc/widgets/featured-contact.php:19
+msgid "Add Widget to Display Featured Contact."
+msgstr ""
+
+#: inc/widgets/featured-contact.php:21
+msgid "Business: Featured Contact"
+msgstr ""
+
+#: inc/widgets/featured-contact.php:54
+msgid "Choose Number (Max: 3)"
+msgstr ""
+
+#: inc/widgets/featured-gallery.php:19
+msgid "Add Widget to Display Our Featured Gallery."
+msgstr ""
+
+#: inc/widgets/featured-gallery.php:21
+msgid "Business: Featured Gallery"
+msgstr ""
+
+#: inc/widgets/featured-gallery.php:27 inc/widgets/featured-gallery.php:33
+#: inc/widgets/featured-gallery.php:80
+msgid "Featured Gallery"
+msgstr ""
+
+#: inc/widgets/featured-partners.php:19
+msgid "Add Widget to Display Featured Partners."
+msgstr ""
+
+#: inc/widgets/featured-partners.php:21
+msgid "Business: Featured Partners"
+msgstr ""
+
+#: inc/widgets/featured-partners.php:54
+msgid "Choose Number (Max: 5)"
+msgstr ""
+
+#: inc/widgets/featured-services.php:19
+msgid "Add Widget to Display Featured Services."
+msgstr ""
+
+#: inc/widgets/featured-services.php:21
+msgid "Business: Featured Services"
+msgstr ""
+
+#: inc/widgets/featured-services.php:27 inc/widgets/featured-services.php:33
+#: inc/widgets/featured-services.php:80
+msgid "Featured Services"
+msgstr ""
+
+#: inc/widgets/featured-slider.php:19
+msgid "Add Widget to Display Featured Slider."
+msgstr ""
+
+#: inc/widgets/featured-slider.php:21
+msgid "Business: Featured Slider"
+msgstr ""
+
+#: inc/widgets/featured-slider.php:27 inc/widgets/featured-slider.php:33
+#: inc/widgets/featured-slider.php:82
+msgid "Read More"
+msgstr ""
+
+#: inc/widgets/featured-slider.php:40
+msgid "Slider Category:"
+msgstr ""
+
+#: inc/widgets/featured-slider.php:63
+msgid "Read More:"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/content-none.php:24
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:37
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:44
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/content-page.php:21
+msgid "Pages:"
+msgstr ""

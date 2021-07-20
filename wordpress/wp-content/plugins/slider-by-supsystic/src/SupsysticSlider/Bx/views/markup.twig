@@ -1,0 +1,132 @@
+{% set float = '' %}
+{% if slider.settings.properties.position == 'left' %}
+    {% set float = 'float: left;' %}
+{% elseif slider.settings.properties.position == 'right' %}
+    {% set float = 'float: right;' %}
+{% endif %}
+{% set slideId = 1 %}
+<div id="supsystic-slider-wrapper-{{ slider.viewId }}" class="supsystic-slider-wrapper">
+    <div class="slider-sharing-top"></div>
+    <div id="supsystic-slider-{{ slider.viewId }}"
+		{% if slider.settings.properties.integrationId is not null %}
+			data-integrate-id="{{ slider.settings.properties.integrationId }}"
+		{% endif %}
+		 class="supsystic-slider supsystic-slider-{{ slider.plugin }}"
+         data-type="{{ slider.plugin }}"
+         data-settings="{{ slider.settings|json_encode|e }}"
+         data-thumbs="thumbnails-{{ slider.id }}"
+         style="{{ float }}visibility: hidden; direction: ltr;overflow-x: hidden;">
+
+        {% if slider.settings.properties.widthType == '%' and slider.settings.properties.height %}
+            {% set listHeight = 'height: 100%;' %}
+            <style type="text/css">
+                .supsystic-slider.supsystic-slider-bx .bx-viewport, .supsystic-slider.supsystic-slider-bx .bx-wrapper{
+                    position: relative;
+                    width: 100%;
+                    height: {{ slider.settings.properties.height }}px !important;
+                    top: 0;
+                    left: 0;
+                }
+            </style>
+        {% endif %}
+
+        <ul style="visibility: hidden; margin: 0 !important; {{ listHeight }}">
+            {% for index, entity in slider.entities %}
+                {% if entity.attachment.type == 'audio' %}
+                    <li class="slide" data-id="{{ slideId }}">
+                        <audio src="{{ entity.attachment.url }}" style="width: 100%;" controls></audio>
+                    </li>
+                {% elseif entity.attachment.type == 'video' %}
+                    <li class="slide" data-id="{{ slideId }}" style="height: {{ slider.settings.properties.height }}px;">
+                        <video src="{{ entity.attachment.url }}" style="width: 100%; height: {{ slider.settings.properties.height }}px;" controls></video>
+                    </li>
+                {% elseif entity.type == 'image' %}
+                    {% set title = slider.settings.general.captionsByMouseover is empty or slider.settings.general.captionsByMouseover == 'true' ? entity.attachment.description_raw : '' %}
+                    {% if slider.settings.properties.widthType == '%' and slider.settings.properties.height %}
+                        {% set url = entity.attachment.url %}
+                        <li class="slide"  data-id="{{ slideId }}" style="background-image: url('{{ url }}'); background-repeat: no-repeat; background-position: top center; background-size: cover; height: 100% !important;" title="{{ title }}" data-title="{{ entity.attachment.description|raw }}">
+                            {% if entity.attachment.external_link %}
+                                <a href="{{ entity.attachment.external_link }}" target="{{ entity.attachment.target }}" style="display: block; width: 100%; height: {{ slider.settings.properties.height }}px;"></a>
+                            {% endif %}
+                        </li>
+                    {% else %}
+                        <li class="slide" data-id="{{ slideId }}">
+                            {% set width = '' %}
+                            {% set src = entity.attachment.url %}
+
+                            {% if slider.settings.properties.widthType == '%' %}
+                                {% set width = 'width="100%" height="100%"' %}
+                            {% endif %}
+                            {% if entity.attachment.external_link %}
+                                {% if slider.settings.properties.widthType != '%' %}
+                                    {% set src = entity|image_size(slider.settings.properties.width, slider.settings.properties.height) %}
+                                {% endif %}
+                            {% else %}
+                                {% if slider.settings.properties.widthType != '%' %}
+                                    {% set src = entity|image_size(slider.settings.properties.width, slider.settings.properties.height, entity.attachment.cropPosition) %}
+                                {% endif %}
+                            {% endif %}
+
+                            {% if entity.attachment.external_link %}
+                                <a href="{{ entity.attachment.external_link }}" target="{{ entity.attachment.target }}">
+                            {% endif %}
+                                    <img src="{{ src }}" {{ width }} alt="{{ entity.attachment.alt }}" title="{{ title }}" data-title="{{ entity.attachment.description|raw }}"/>
+                            {% if entity.attachment.external_link %}
+                                </a>
+                            {% endif %}
+                        </li>
+                    {% endif %}
+                {% elseif entity.type == 'map' %}
+                    <li class="slide" data-id="{{ slideId }}">
+                        [google_map_easy id="{{ entity.map_id }}" width="100" width_units="%" height="{{ slider.settings.properties.height }}"]
+                    </li>
+                {% elseif entity.type == 'video' %}
+                    <li class="slide" data-id="{{ slideId }}">
+                        <video style="width: 100%;" data-service="{{ entity.attachment.service }}" data-width="100%" data-video-id="{{ entity.video_id }}" data-height="{{ slider.settings.properties.height }}"></video>
+                    </li>
+                {% endif %}
+                {% set slideId = slideId + 1 %}
+            {% endfor %}
+        </ul>
+    </div>
+
+    {% if slider.settings.general.navigation == "1" %}
+        <div id="bx-clearfix" style="clear:both;"></div>
+    {% endif %}
+
+    <ul class="thumbnails-{{ slider.id }} thumbs" style="visibility: hidden; margin: 0 !important;">
+        {% set slideIndex = 0 %}
+        {% for i, slides in slider.thumbnails %}
+            <li>
+                {% for index, entity in slides %}
+                    {% set thumb_src = entity|image_size(slider.settings.properties.width/4.0, slider.settings.properties.height/3.0, entity.attachment.cropPosition) %}
+                    {% set title = slider.settings.general.captionsByMouseover is empty or slider.settings.general.captionsByMouseover == 'true' ? entity.attachment.description_raw : '' %}
+
+                    {% if slider.settings.properties.widthType == '%' %}
+                        {% set thumb_src = entity|image_size('100', slider.settings.properties.height/3.0, entity.attachment.cropPosition) %}
+                    {% endif %}
+                    <img
+                            data-index="{{ slideIndex }}"
+                            src="{{ thumb_src }}"
+                            alt="{{ entity.attachment.alt|default(entity.attachment.title)|title }}"
+                            title="{{ title }}"
+                            data-title="{{ entity.attachment.description|raw }}"
+                            style="{{ index != 0 ? 'margin-top: 1px;' : '' }}"
+                            />
+                    {% set slideIndex = slideIndex + 1 %}
+                {% endfor %}
+            </li>
+        {% endfor %}
+    </ul>
+
+    {% if slider.settings.general.navigation == "1" %}
+        <div style="clear:both;"></div>
+    {% endif %}
+
+    {% if slider.settings.socialSharing is not empty and slider.settings.socialSharing.status == 'enable' %}
+        <div class="slider-social-share-html" style="display:none;">
+            {{ slider.settings.socialSharing.html|raw }}
+        </div>
+    {% endif %}
+    <div class="slider-sharing-bottom"></div>
+</div>

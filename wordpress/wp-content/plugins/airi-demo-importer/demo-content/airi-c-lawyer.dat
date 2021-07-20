@@ -1,0 +1,240 @@
+a:4:{s:8:"template";s:4:"airi";s:4:"mods";a:33:{i:0;b:0;s:18:"nav_menu_locations";a:1:{s:6:"menu-1";i:3;}s:18:"custom_css_post_id";i:24;s:16:"x1_header_social";a:2:{i:0;a:2:{s:4:"icon";s:11:"fa-facebook";s:8:"link_url";s:32:"https://facebook.com/yourprofile";}i:1;a:2:{s:4:"icon";s:10:"fa-twitter";s:8:"link_url";s:31:"https://twitter.com/yourprofile";}}s:16:"sidebars_widgets";a:2:{s:4:"time";i:1559240316;s:4:"data";a:6:{s:19:"wp_inactive_widgets";a:0:{}s:9:"sidebar-1";a:6:{i:0;s:8:"search-2";i:1;s:14:"recent-posts-2";i:2;s:17:"recent-comments-2";i:3;s:10:"archives-2";i:4;s:12:"categories-2";i:5;s:6:"meta-2";}s:8:"footer-1";a:0:{}s:8:"footer-2";a:0:{}s:8:"footer-3";a:0:{}s:8:"footer-4";a:0:{}}}s:9:"menu_type";s:10:"menuStyle6";s:11:"sticky_menu";s:13:"static-header";s:11:"custom_logo";i:148;s:22:"menu6_top_section_left";s:109:"<span class="location"><i class="fa fa-map-marker" aria-hidden="true"></i> King Street, Manchester, UK</span>";s:23:"menu6_top_section_right";s:171:"					<ul>
+						<li><i class="fa fa-phone" aria-hidden="true"></i>001-1234-88888</li>
+						<li><i class="fa fa-clock-o" aria-hidden="true"></i>08AM - 17PM</li>
+					</ul>";s:17:"menu6_button_text";s:19:"Request Appointment";s:16:"menu6_button_url";s:1:"#";s:13:"headings_font";a:5:{s:11:"font-family";s:4:"Lora";s:7:"variant";s:7:"regular";s:11:"font-backup";s:0:"";s:11:"font-weight";i:400;s:10:"font-style";s:6:"normal";}s:9:"body_font";a:5:{s:11:"font-family";s:9:"Work Sans";s:7:"variant";s:3:"500";s:11:"font-backup";s:0:"";s:11:"font-weight";i:500;s:10:"font-style";s:6:"normal";}s:21:"font_size_index_title";s:2:"24";s:22:"font_size_single_title";s:2:"50";s:17:"font_size_widgets";s:2:"18";s:13:"color_primary";s:7:"#707070";s:19:"mobile_toggle_color";s:7:"#ffffff";s:16:"color_submenu_bg";s:7:"#dd3333";s:17:"color_meta_cat_bg";s:7:"#948b3e";s:15:"color_meta_text";s:7:"#707070";s:16:"color_meta_links";s:7:"#707070";s:11:"blog_layout";s:18:"layout-two-columns";s:26:"single_post_content_layout";s:8:"layout-3";s:26:"single_comment_form_layout";s:8:"layout-3";s:18:"single_post_layout";s:11:"layout-full";s:24:"font_size_footer_credits";s:2:"15";s:30:"font_size_footer_widget_titles";s:2:"22";s:24:"font_size_footer_widgets";s:2:"16";s:19:"color_widgets_title";s:7:"#191919";s:18:"color_widgets_text";s:7:"#707070";s:19:"color_widgets_links";s:7:"#707070";}s:7:"options";a:2:{s:9:"site_icon";s:1:"0";s:23:"nav_menus_created_posts";a:0:{}}s:6:"wp_css";s:6541:"/*Airi Lawer*/
+.counter-text-left .elementor-counter-number-wrapper .elementor-counter-number-prefix {display:none;}
+.counter-text-left .elementor-counter .elementor-counter-title{text-align: left;}
+
+.custom-timeline.elementor-tabs-view-horizontal .elementor-tabs-wrapper .elementor-tab-title,
+.custom-timeline.elementor-tabs-view-horizontal .elementor-tabs-content-wrapper .elementor-tab-content,
+.custom-timeline.elementor-tabs-view-horizontal .elementor-tabs-wrapper .elementor-tab-title:before,
+.custom-timeline.elementor-tabs-view-horizontal .elementor-tabs-wrapper .elementor-tab-title:after {
+	border-width: 0;
+}
+.custom-timeline.elementor-tabs-view-horizontal .elementor-tabs-wrapper .elementor-tab-title {
+	padding: 0;
+}
+.custom-timeline.elementor-tabs-view-horizontal .elementor-tabs-content-wrapper .elementor-tab-content {
+	    padding-top: 39px;
+}
+.custom-timeline.elementor-tabs-view-horizontal .elementor-tabs-wrapper .elementor-tab-title a {
+	display: inline-block;
+	padding-bottom: 25px;
+	position: relative;
+	padding-left: 32px;
+    padding-right: 32px;
+}
+.custom-timeline.elementor-tabs-view-horizontal .elementor-tabs-wrapper .elementor-tab-title a:after {
+	content: '';
+	width: 8px;
+	height: 8px;
+	background-color: #b5b5b5;
+	border-radius: 100%;
+	position: absolute;
+	bottom:0;
+	left: 50%;
+	transform: translatex(-50%);
+}
+.custom-timeline.elementor-tabs-view-horizontal .elementor-tabs-wrapper .elementor-tab-title.elementor-active a:after {
+	background-color: #948b3e;
+}
+.custom-timeline.elementor-tabs-view-horizontal .elementor-tabs-wrapper .elementor-tab-title a:before {
+	content: '';
+	position: absolute;
+	bottom:3px;
+	height: 1px;
+	background-color: #e5e5e5;
+	left:0;
+	right:0;
+}
+.custom-timeline.elementor-tabs-view-horizontal .elementor-tabs-wrapper .elementor-tab-title:first-child a {
+	padding-left: 0;
+}
+.custom-timeline.elementor-tabs-view-horizontal .elementor-tabs-wrapper .elementor-tab-title:last-child a {
+	padding-right: 0;
+}
+.custom-timeline.elementor-tabs-view-horizontal .elementor-tabs-wrapper .elementor-tab-title:first-child a:before {
+	left: 20px;
+}
+.custom-timeline.elementor-tabs-view-horizontal .elementor-tabs-wrapper .elementor-tab-title:first-child a:after {
+	left: 30%;
+}
+.custom-timeline.elementor-tabs-view-horizontal .elementor-tabs-wrapper .elementor-tab-title:last-child a:after {
+	left: 70%;
+}
+.custom-timeline.elementor-tabs-view-horizontal .elementor-tabs-wrapper .elementor-tab-title:last-child a:before {
+	right: 20px;
+}
+.custom-timeline.elementor-tabs-view-horizontal .elementor-tabs-wrapper { display: flex }
+.lawer-progress .elementor-widget-container {
+	position: relative;
+}
+.lawer-progress .elementor-widget-container .elementor-progress-wrapper {
+	height: 6px;
+	position: static;
+	margin-top: 12px;
+}
+.lawer-progress .elementor-widget-container .elementor-progress-percentage {
+	padding: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	font-size: 20px;
+	font-family: 'Lora';
+}
+.wpcf7-form .contact-lawer-form .form-control {
+	border-color: #e5e5e5;
+	-webkit-border-radius: 2px 2px 2px 2px;
+	-moz-border-radius: 2px 2px 2px 2px;
+	border-radius: 2px 2px 2px 2px;
+	box-shadow: none;
+	margin-bottom: 30px;
+	transition: all .3s;
+}
+.wpcf7-form .contact-lawer-form .form-control:focus {
+	border-color: #948b3e;
+	color: #191919;
+}
+.wpcf7-form .contact-lawer-form .wpcf7-submit {
+	background-color: #948b3e;
+	border-color: #948b3e;
+		-webkit-border-radius: 2px 2px 2px 2px;
+	-moz-border-radius: 2px 2px 2px 2px;
+	border-radius: 2px 2px 2px 2px;
+	color: #fff;
+	padding:11px 27px 12px 28px;
+}
+.wpcf7-form .contact-home-lawer-form {
+	max-width: 470px;
+}
+.wpcf7-form .contact-home-lawer-form .wpcf7-submit {
+		background-color: #948b3e;
+	border-color: #948b3e;
+		-webkit-border-radius: 2px 2px 2px 2px;
+	-moz-border-radius: 2px 2px 2px 2px;
+	border-radius: 2px 2px 2px 2px;
+	color: #fff;
+	padding:11px 45px 12px 45px;
+	margin-top: 21px;
+}
+.wpcf7-form .contact-home-lawer-form .form-control {
+	border-color: #e5e5e5;
+	-webkit-border-radius: 2px 2px 2px 2px;
+	-moz-border-radius: 2px 2px 2px 2px;
+	border-radius: 2px 2px 2px 2px;
+	box-shadow: none;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	padding-left: 15px;
+	margin-bottom: 9px;
+	transition: all .3s;
+}
+.wpcf7-form .contact-home-lawer-form select.form-control {
+	text-indent: 6px;
+}
+.wpcf7-form .contact-home-lawer-form .form-control:focus {
+	border-color: #948b3e;
+	color: #191919;
+}
+.wpcf7-form .contact-home-lawer-form select {
+	height: 50px !important;
+}
+.widget_categories li::before {
+	display: none;
+}
+.footer-widgets {
+	background-color: #181b33;
+	color: #fff;
+	font-weight: 300;
+	padding-top: 72px;
+	padding-bottom: 8px;
+}
+
+.about-us-footer {
+	line-height: 26px;
+	margin-bottom: -15px;
+}
+
+.footer-widgets .social-media-list li a::before, .social-widget a::before {
+	font-size: 16px;
+	height: 40px;
+	width: 40px;
+	line-height: 40px;
+	background: transparent !important;
+    border: 1px solid #948b3e;
+}
+.footer-widgets .social-media-list li a:hover::before, .social-widget a:hover::before {
+	background: #948b3e !important;
+}
+
+.footer-widgets .sidebar-column .widget-title {
+    position: relative;
+		padding-bottom: 18px;
+		margin-bottom: 26px;
+		color: #fff;
+}
+
+.footer-widgets .sidebar-column .widget-title:after {
+    position: absolute;
+		left: 0;
+		bottom: 0;
+	  content: '';
+		background-color: #948b3e;
+		height: 3px;
+		width: 50px;
+}
+.footer-widgets .widget ul li {
+		padding-bottom: 12px;
+}
+.footer-widgets .widget ul > li > a {
+	display: inline-block;
+	position: relative;
+}
+.footer-widgets .widget.widget_nav_menu ul > li > a:before {
+	font-family: FontAwesome;
+	content: "\f101";
+	font-size: 15px;
+	color: #54576c;
+	margin-right: 10px;
+}
+.footer-widgets .sidebar-column .widget {
+	margin-bottom: 38px;
+}
+.site-footer {
+	background-color: #181b33;
+	color: #fff;
+	text-align: center;
+}
+.site-info {
+	border-color: rgba(255,255,255,.1);
+		color: #bfbfbf;
+	text-transform: initial;
+	font-weight: 300;
+	padding-top: 17px;
+	padding-bottom: 20px;
+}
+.site-info a {
+	color: #bfbfbf;
+}
+@media ( min-width: 991px  ) {
+	.footer-widgets .sidebar-column:nth-child(1) {
+	max-width: 33.3333333333%;
+	flex-basis: 33.3333333333%;
+}
+.footer-widgets .sidebar-column:nth-child(2) {
+	max-width: 16.6666666667%;
+	flex-basis: 16.6666666667%;
+	padding-left: 30px;
+}
+.footer-widgets .sidebar-column:nth-child(3) {
+	padding-left: 100px;
+}
+.footer-widgets .sidebar-column:nth-child(3) {
+	padding-left: 65px;
+}
+}
+@media ( min-width: 767px  ) {
+	.custom-timeline.elementor-tabs-view-horizontal .elementor-tabs-wrapper {
+		display: none;
+	}
+}";}

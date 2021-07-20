@@ -1,0 +1,30 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>多文件上传</title>
+</head>
+<body>
+
+<!-- <form action="upload_file.php" method="post" enctype="multipart/form-data"> -->
+    <!-- // 同名表单上传 -->
+<form action="multi_upload.php" method="post" enctype="multipart/form-data">
+    <label for="file">文件名：</label>
+    <input type="file" name="image[]"><br>
+    <input type="file" name="image[]"><br>
+    <input type="file" name="image[]"><br>
+    <input type="file" name="image[]"><br>
+    <input type="submit" name="submit" value="批量上传">
+</form>
+
+<!-- //异名表单上传 -->
+<!-- <form action="multi_upload.php" method="post" enctype="multipart/form-data">
+    <label for="file">文件名：</label>
+    <input type="file" name="image1"><br>
+    <input type="file" name="image2"><br>
+    <input type="file" name="image3"><br>
+    <input type="file" name="image4"><br>
+    <input type="submit" name="submit" value="批量上传">
+</form> -->
+
+</body>
+</html> 

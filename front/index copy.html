@@ -1,0 +1,184 @@
+<!--
+ * @Author: your name
+ * @Date: 2020-03-29 11:00:12
+ * @LastEditTime: 2020-04-03 10:38:15
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: /front/index.html
+ -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./layui/css/layui.css">
+    <script src="./layui/layui.js"></script>
+
+</head>
+
+<body>
+
+    <div class="layui-container">
+        <!-- 常规布局（以中型屏幕桌面为例）： -->
+        <div class="layui-row">
+            <div>
+                <div class="layui-form-item">
+                    <h1>Australia Coronavirus Trend</h1>
+                </div>
+                <hr class="layui-bg-red">
+
+                <form class="layui-form" action="">
+                    <div class="layui-form">
+                        <div class="layui-form-item">
+                            <label class="layui-form-label">NSW</label>
+                            <div class="layui-input-inline">
+                                <input type="text" name="NSW" required lay-verify="required" placeholder="Please enter data" autocomplete="off" class="layui-input">
+                            </div>
+                        </div>
+                        <div class="layui-form-item">
+                            <label class="layui-form-label">VIC</label>
+                            <div class="layui-input-inline">
+                                <input type="text" name="VIC" required lay-verify="required" placeholder="Please enter data" autocomplete="off" class="layui-input">
+                            </div>
+                        </div>
+                        <div class="layui-form-item">
+                            <label class="layui-form-label">QLD</label>
+                            <div class="layui-input-inline">
+                                <input type="text" name="QLD" required lay-verify="required" placeholder="Please enter data" autocomplete="off" class="layui-input">
+                            </div>
+                        </div>
+
+                        <div class="layui-form-item">
+                            <label class="layui-form-label">SA</label>
+                            <div class="layui-input-inline">
+                                <input type="text" name="SA" required lay-verify="required" placeholder="Please enter data" autocomplete="off" class="layui-input">
+                            </div>
+                        </div>
+                        <div class="layui-form-item">
+                            <label class="layui-form-label">WA</label>
+                            <div class="layui-input-inline">
+                                <input type="text" name="WA" required lay-verify="required" placeholder="Please enter data" autocomplete="off" class="layui-input">
+                            </div>
+                        </div>
+                        <div class="layui-form-item">
+                            <label class="layui-form-label">TAS</label>
+                            <div class="layui-input-inline">
+                                <input type="text" name="TAS" required lay-verify="required" placeholder="Please enter data" autocomplete="off" class="layui-input">
+                            </div>
+                        </div>
+
+                        <div class="layui-form-item">
+                            <label class="layui-form-label">NT</label>
+                            <div class="layui-input-inline">
+                                <input type="text" name="NT" required lay-verify="required" placeholder="Please enter data" autocomplete="off" class="layui-input">
+                            </div>
+                        </div>
+
+                        <div class="layui-form-item">
+                            <label class="layui-form-label">ACT</label>
+                            <div class="layui-input-inline">
+                                <input type="text" name="ACT" required lay-verify="required" placeholder="Please enter data" autocomplete="off" class="layui-input">
+                            </div>
+                        </div> -->
+
+                        <div class="layui-form-item">
+                            <label class="layui-form-label">TOTAL</label>
+                            <div class="layui-input-inline">
+                                <input type="text" name="TOTAL" required lay-verify="required" placeholder="Please enter data" autocomplete="off" class="layui-input">
+                            </div>
+                        </div>
+
+                        <div class="layui-form-item">
+                            <label class="layui-form-label">DATE</label>
+                            <div class="layui-input-inline">
+                                <!-- 注意：这一层元素并不是必须的 -->
+                                <input type="text" name="DATE" class="layui-input" id="test1">
+                            </div>
+                        </div>
+
+                        <div class="layui-form-item">
+                            <div class="layui-input-block">
+                                <button class="layui-btn" lay-submit lay-filter="formDemo">SUBMIT</button>
+                                <button type="reset" class="layui-btn layui-btn-primary">RESET</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </form>
+            </div>
+        </div>
+        <script type="text/javascript" src="../covid/js/jquery.min.js"></script>
+
+        <script>
+            layui.use(['form', 'laydate', ], function() {
+
+                var form = layui.form;
+                var laydate = layui.laydate;
+                // console.log(laydate);
+                laydate.render({
+                    elem: '#test1',
+                    value: new Date(),
+                    done: function(value) {
+                        console.log(value);
+                    }
+                });
+
+                //监听提交
+                form.on('submit(formDemo)', function(data, formDate) {
+                    var msg = JSON.stringify(data.field);
+                    console.log(msg)
+                    postMessage(msg)
+                        // layer.msg(JSON.stringify(data.field));
+                    return false;
+                });
+            });
+
+            function postMessage(msg) {
+                console.log(msg);
+                $.ajax({
+                    url: 'http://localhost/covid/php/insertData.php',
+                    type: 'POST',
+                    data: {
+                        msg: msg
+                    },
+                    async: true,
+                    dataType: 'json',
+                    // dataType: 'jsonp',
+                    // jsonp:"callback",
+                    // jsonpCallback:"success_jsonpCallback",
+                    crossDomain: true,
+                    traditional: true,
+                    success: function(data) {
+                        // alert(data);
+                        console.log(data, "map");
+                        // console.log(data.initdata);
+                        var msg = data;
+                        if (msg) {
+                            console.log('success!');
+                            layer.open({
+                                content: msg,
+                                yes: function(index, layero) {
+                                    //do something
+                                    layer.close(index); //如果设定了yes回调，需进行手工关闭
+                                }
+                            });
+
+                        }
+
+                    },
+                    complete: function() {
+                        //请求完成的处理
+                    },
+                    error: function() {
+                        //请求出错处理
+                        // alert("加载失败");
+                    }
+                })
+            }
+        </script>
+
+</body>
+
+</html>

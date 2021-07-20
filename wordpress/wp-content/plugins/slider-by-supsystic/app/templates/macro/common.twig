@@ -1,0 +1,48 @@
+{% macro message(code, type) %}
+    {% import _self as self %}
+    {% set plugins = {
+        'gmp': {
+            'name': 'Google Maps Easy',
+            'slug': 'google-maps-easy',
+            'single': 'map',
+            'plural': 'maps',
+            'search': 'supsystic+maps+easy'
+        },
+    } %}
+    {% if type == 'no_plugin' %}
+        {{ self.no_plugin(code, plugins) }}
+    {% elseif type == 'no_data' %}
+        {{ self.no_data(code, plugins) }}
+    {% endif %}
+{% endmacro %}
+
+{% macro no_plugin(code, plugins) %}
+    {% for key, plug in plugins %}
+        {% if key == code %}
+            {% set url = '/wp-admin/plugin-install.php?s=' ~ plug.search ~ '&tab=search&type=term' %}
+            <div class="no-plugin">
+                <p class="description" style="margin: 20px 0; text-align: center;">
+                    {{ translate('Please install <a href="' ~ url ~ '" target="_blank">' ~ plug.name ~ '</a> plugin to use this feature!')|raw }}
+                </p>
+            </div>
+        {% endif %}
+    {% endfor %}
+{% endmacro %}
+
+{% macro no_data(code, plugins) %}
+    {% for key, plug in plugins %}
+        {% if key == code %}
+            <p class="description" style="margin: 20px 0; text-align: center;">
+                {{ translate('You have no '~ plug.plural ~' for now. <a href="/wp-admin/admin.php?page='~ plug.slug ~'" target="_blank">Create</a> it first.')|raw }}
+            </p>
+        {% endif %}
+    {% endfor %}
+{% endmacro %}
+
+{% macro templateCommentStart(path) %}
+    {{ '<!-- Template: ' ~ path ~ ' -->' }}
+{% endmacro %}
+
+{% macro templateCommentEnd(path) %}
+    {{ '<!-- End of Template: ' ~ path ~ ' -->' }}
+{% endmacro %}

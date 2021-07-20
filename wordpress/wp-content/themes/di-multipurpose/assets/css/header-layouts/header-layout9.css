@@ -1,0 +1,148 @@
+/* Parent section */
+
+.sticky_hedaer_top {
+	position: fixed !important;
+	top: 0 !important;
+	z-index: 1002;
+}
+
+.sticky_hedaer_top .custom-logo.img-fluid {
+	width: 70%;
+	transition: width .3s ease-in-out;
+}
+
+
+/* Left sidebar */
+.dimlayout9 .sidebar-header-left .widgets_header_left {
+	margin-bottom: 10px;
+	width: 100%;
+	text-align: left;
+}
+
+/* browser is larger than */
+@media (min-width: 575px) {
+
+	.dimlayout9 .sidebar-header-left-otr {
+		display: -webkit-flex;
+		display: flex;
+		-webkit-flex-wrap: wrap;
+		flex-wrap: wrap;
+		-webkit-align-content: center;
+		align-content: center;
+	}
+
+	.dimlayout9 .sidebar-header-left-otr .sidebar-header-left {
+		width: 100%;
+		position: relative;
+	}
+}
+
+/* browser is less than */
+@media (max-width: 575px) {
+	.dimlayout9 .sidebar-header-left .widgets_header_left {
+		text-align: center;
+	}
+}
+
+/* widget ul li */
+.sidebar-header-left ul {
+	margin: 0 auto;
+	padding: 0;
+	list-style-type: none;
+	display: table;
+}
+
+.sidebar-header-left ul li {
+	float: left;
+	margin-left: 20px;
+}
+
+.sidebar-header-left ul li a {
+	font-size: 16px;
+	letter-spacing: 1px;
+}
+
+.sidebar-header-left ul ul {
+	display: none;
+}
+
+/* Logo */
+@media (min-width: 575px) {
+	.dimlayout9 .dimlogoutr {
+		display: -webkit-flex;
+		display: flex;
+		-webkit-flex-wrap: wrap;
+		flex-wrap: wrap;
+		-webkit-align-content: center;
+		align-content: center;
+	}
+
+	.dimlayout9 .dimlogo {
+		width: 100%;
+		position: relative;
+	}
+}
+
+.dimlayout9 .custom-logo {
+	margin: 0 auto;
+	display: table;
+	margin-bottom: 12px;
+}
+
+.dimlayout9 .logo-as-txt {
+	text-align: center;
+}
+
+/* Right sidebar */
+.dimlayout9 .sidebar-header-right .widgets_header_right {
+	margin-bottom: 10px;
+	width: 100%;
+	text-align: right;
+}
+
+/* browser is larger than */
+@media (min-width: 575px) {
+
+	.dimlayout9 .sidebar-header-right-otr {
+		display: -webkit-flex;
+		display: flex;
+		-webkit-flex-wrap: wrap;
+		flex-wrap: wrap;
+		-webkit-align-content: center;
+		align-content: center;
+	}
+
+	.dimlayout9 .sidebar-header-right-otr .sidebar-header-right {
+		width: 100%;
+		position: relative;
+	}
+}
+
+/* browser is less than */
+@media (max-width: 575px) {
+	.dimlayout9 .sidebar-header-right .widgets_header_right {
+		text-align: center;
+	}
+}
+
+/* widget ul li */
+.sidebar-header-right ul {
+	margin: 0 auto;
+	padding: 0;
+	list-style-type: none;
+	display: table;
+}
+
+.sidebar-header-right ul li {
+	float: left;
+	margin-left: 20px;
+}
+
+.sidebar-header-right ul li a {
+	font-size: 16px;
+	letter-spacing: 1px;
+}
+
+.sidebar-header-right ul ul {
+	display: none;
+}

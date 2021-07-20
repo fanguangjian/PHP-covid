@@ -1,0 +1,10 @@
+/*remove duplicated WP menu item*/
+#toplevel_page_supsystic-slider .wp-submenu.wp-submenu-wrap .wp-first-item {
+	display: none;
+}
+
+.sg-photos .checked {
+	background-color: white;
+	width: 17px;
+	height: 17px;
+}

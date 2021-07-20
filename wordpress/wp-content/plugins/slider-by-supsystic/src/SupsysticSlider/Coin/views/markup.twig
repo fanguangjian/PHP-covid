@@ -1,0 +1,88 @@
+{% set float = '' %}
+{% if slider.settings.properties.position == 'left' %}
+    {% set float = 'float: left;' %}
+{% elseif slider.settings.properties.position == 'right' %}
+    {% set float = 'float: right;' %}
+{% endif %}
+{% set slideId = 1 %}
+<div id="supsystic-slider-wrapper-{{ slider.viewId }}" class="supsystic-slider-wrapper">
+    <div class="slider-sharing-top"></div>
+    <div id="supsystic-slider-{{ slider.viewId }}"
+        {% if slider.settings.properties.integrationId is not null %}
+            data-integrate-id="{{ slider.settings.properties.integrationId }}"
+        {% endif %}
+         class="supsystic-slider supsystic-slider-{{ slider.id }} supsystic-slider-{{ slider.plugin }}"
+         data-type="{{ slider.plugin }}"
+         data-settings="{{ slider.settings|json_encode|e }}"
+         style="margin: 0 auto 5px; visibility: hidden;"
+         data-position="{{ float }}">
+
+        {% for entity in slider.entities %}
+            {% if entity.type == 'image' %}
+                {% if entity.attachment.external_link %}
+                    {% set url = entity.attachment.external_link  %}
+                {% else %}
+                    {% set url = entity.attachment.sizes.full.url %}
+                {% endif %}
+				<a class="slide" data-id="{{ slideId }}" href="{{ url }}"
+					{% if entity.attachment.target | length > 0 %}target="{{ entity.attachment.target }}"{% endif %}
+				>
+                <img src="{{ entity|image_size(slider.settings.properties.width, slider.settings.properties.height, entity.attachment.cropPosition) }}" alt="{{ image.attachment.alt }}">
+                {% if entity.attachment.description is not empty and slider.settings.general.captions == 'true' %}
+                    <span style="margin-left: 20px;">
+                        {% set description = entity.attachment.description %}
+                        <div style="width: 100%; height: 100%; color:{{ slider.settings.post.caption_color|default('#000000') }}; background-color:{{ slider.settings.post.caption_bg|default('rgba(255, 255, 255, 1)') }}; font-size: {{ slider.settings.caption['font-size']|default('14') ~ 'px' }}; text-align: {{ slider.settings.caption['text-align']|default('auto') }}; font-family: {{ slider.settings.caption['font-family']|default('Open Sans') }};">
+                            <span style="margin: auto 10px;">{{ description|raw }}</span>
+                        </div>
+                    </span>
+                {% endif %}
+                </a>
+            {% elseif entity.type == 'map' %}
+				{#<a class="slide" data-id="{{ slideId }}" href="#" onclick="return false;"#}
+					{#{% if entity.attachment.target | length > 0 %}target="{{ entity.attachment.target }}"{% endif %}#}
+				{#>#}
+                    {#<img src="{{ environment.getModule('slider').getLocationUrl() }}/assets/images/transparent.png" />#}
+                    {#[google_map_easy id="{{ entity.map_id }}" width="100" width_units="%" height="{{ slider.settings.properties.height }}"]#}
+                {#</a>#}
+            {% endif %}
+            {% set slideId = slideId + 1 %}
+        {% endfor %}
+
+        {% if environment.isPro() %}
+            {% for post in slider.posts %}
+                {% set image = post.image %}
+                <a class="slide" data-id="{{ slideId }}" href="{{ post.url }}">
+                    <img src="{{ image|image_size(slider.settings.properties.width, slider.settings.properties.height, image.attachment.cropPosition) }}" alt="{{ image.attachment.alt }}">
+                    <span>
+                        <div style="width: 100%; height: 100%; color:{{ slider.settings.post.caption_color|default('#000000') }}; background-color:{{ slider.settings.post.caption_bg|default('rgba(255, 255, 255, 1)') }};">
+                            {% if slider.settings.post_settings.title == 'true' %}
+                                {% set title = post.title %}
+                                {% if slider.settings.post_settings.optimize_title == 'true' %}
+                                    {% set title = post.title|capitalize %}
+                                {% endif %}
+                                <h3 style="margin-left: 10px; margin-bottom: 0; margin-top: 0;">{{ title }}</h3>
+                            {% endif %}
+                            {% if slider.settings.post_settings.date == 'true' %}
+                                <div style="margin-left: 10px;">{{ post.date }}</div>
+                            {% endif %}
+                            {% if slider.settings.post_settings.excerpt == 'true' %}
+                                <div style="margin-left: 10px;">{{ post.excerpt }}</div>
+                            {% endif %}
+                            {% if slider.settings.post_settings.read_more == 'true' %}
+                                <div data-href="{{ post.url }}" class="pseudo-link" style="margin-left: 10px; font-size: 14px;">Read more...</div>
+                            {% endif %}
+                        </div>
+                    </span>
+                </a>
+                {% set slideId = slideId + 1 %}
+            {% endfor %}
+        {% endif %}
+
+    </div>
+    {% if slider.settings.socialSharing is not empty and slider.settings.socialSharing.status == 'enable' %}
+        <div class="slider-social-share-html" style="display:none;">
+            {{ slider.settings.socialSharing.html|raw }}
+        </div>
+    {% endif %}
+    <div class="slider-sharing-bottom"></div>
+</div>

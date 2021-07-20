@@ -1,0 +1,1224 @@
+msgid " plugin from your admin area, or visit it\'s official page on Wordpress.org "
+msgstr ""
+
+msgid "%s resources successfully attached to <a href=\"%s\">%s</a>"
+msgstr ""
+
+msgid "<strong>%s</strong> has its own caching system in order to significantly reduce the load on the database."
+msgstr ""
+
+msgid "Activate"
+msgstr ""
+
+msgid "Activate License"
+msgstr ""
+
+msgid "Add Images"
+msgstr ""
+
+msgid "Add Map"
+msgstr ""
+
+msgid "Add Video"
+msgstr ""
+
+msgid "Add button"
+msgstr ""
+
+msgid "Add images"
+msgstr ""
+
+msgid "Add images to the new slider"
+msgstr ""
+
+msgid "Add images to the slider"
+msgstr ""
+
+msgid "Add new video"
+msgstr ""
+
+msgid "Add page"
+msgstr ""
+
+msgid "Add post"
+msgstr ""
+
+msgid "Add selected to the slider"
+msgstr ""
+
+msgid "Add the selected items to the existing slider"
+msgstr ""
+
+msgid "Additional Posts Settings"
+msgstr ""
+
+msgid "Advanced options"
+msgstr ""
+
+msgid "Align center"
+msgstr ""
+
+msgid "Align left"
+msgstr ""
+
+msgid "Align right"
+msgstr ""
+
+msgid "All"
+msgstr ""
+
+msgid ""
+"All available languages are provided with the Supsystic Slider plugin. If your language isn’t available, your plugin will be in English by default.\n"
+"                        Available Translations: English\n"
+"                        Translate or update a translation Slider WordPress plugin in your language and get a Premium license for FREE."
+msgstr ""
+
+msgid "All news"
+msgstr ""
+
+msgid "All photos"
+msgstr ""
+
+msgid "Allow plugin to send anonymous usage statistics:"
+msgstr ""
+
+msgid "Alternative text"
+msgstr ""
+
+msgid "An error has occurred"
+msgstr ""
+
+msgid "Arrows"
+msgstr ""
+
+msgid "Arrows color"
+msgstr ""
+
+msgid "Authorization code is not specified."
+msgstr ""
+
+msgid "Authorization oauth_verifier is not specified."
+msgstr ""
+
+msgid "Auto Posts"
+msgstr ""
+
+msgid "Auto Posts Categories"
+msgstr ""
+
+msgid "Autoplay video"
+msgstr ""
+
+msgid "Autostart Slideshow"
+msgstr ""
+
+msgid "Available in PRO version."
+msgstr ""
+
+msgid "Background color"
+msgstr ""
+
+msgid "Background color: "
+msgstr ""
+
+msgid "Background on hover: "
+msgstr ""
+
+msgid "Background opacity: "
+msgstr ""
+
+msgid "Background: "
+msgstr ""
+
+msgid "Backup Plugin"
+msgstr ""
+
+msgid "Backup and Restore WordPress Plugin by Supsystic provides quick and unhitched DropBox, FTP, Amazon S3, Google Drive backup for your WordPress website."
+msgstr ""
+
+msgid "Be closer to your visitors and customers with Live Chat Support by Supsystic. Help you visitors, support them in real-time with exceptional Live Chat WordPress plugin by Supsystic."
+msgstr ""
+
+msgid "Border color:"
+msgstr ""
+
+msgid "Border style:"
+msgstr ""
+
+msgid "Border width:"
+msgstr ""
+
+msgid "Bullet Control"
+msgstr ""
+
+msgid "Button properties"
+msgstr ""
+
+msgid "Buttons"
+msgstr ""
+
+msgid "Buttons Align"
+msgstr ""
+
+msgid "Buttons Position"
+msgstr ""
+
+msgid "Buttons Project"
+msgstr ""
+
+msgid "Caching is not available because your uploads directory is not writable."
+msgstr ""
+
+msgid "Cancel"
+msgstr ""
+
+msgid "Caption"
+msgstr ""
+
+msgid "Caption by Mouseover"
+msgstr ""
+
+msgid "Caption position"
+msgstr ""
+
+msgid "Caption settings editor"
+msgstr ""
+
+msgid "Captions"
+msgstr ""
+
+msgid "Change"
+msgstr ""
+
+msgid "Change Slider"
+msgstr ""
+
+msgid "Change Slider Type"
+msgstr ""
+
+msgid "Check all FAQs"
+msgstr ""
+
+msgid "Choose Slider Template. You can change it later."
+msgstr ""
+
+msgid "Choose import source"
+msgstr ""
+
+msgid "Choose map to import"
+msgstr ""
+
+msgid "Clear cache"
+msgstr ""
+
+msgid "Close"
+msgstr ""
+
+msgid "Color on hover: "
+msgstr ""
+
+msgid "Color: "
+msgstr ""
+
+msgid "Coming Soon Plugin"
+msgstr ""
+
+msgid "Coming soon page with drag-and-drop builder or under construction | maintenance mode to notify visitors and collects emails."
+msgstr ""
+
+msgid "Comparison PRO"
+msgstr ""
+
+msgid "Congratulations! You have successfully installed and activated PRO version of Slider by Supsystic plugin."
+msgstr ""
+
+msgid "Contact Form Plugin"
+msgstr ""
+
+msgid "Content"
+msgstr ""
+
+msgid "Controls"
+msgstr ""
+
+msgid "Controls type"
+msgstr ""
+
+msgid "Create and manage beautiful data tables with custom design. No HTML knowledge is required."
+msgstr ""
+
+msgid "Create new folder"
+msgstr ""
+
+msgid "Create new slider"
+msgstr ""
+
+msgid "Create new slider from the selected items"
+msgstr ""
+
+msgid "Create online membership community with custom user profiles, roles, FrontEnd registration and login. Members Directory, activity, groups, messages."
+msgstr ""
+
+msgid "Create your first project"
+msgstr ""
+
+msgid "Creating slideshows with Slider plugin is fast and easy. Simply select images from your WordPress Media Library, Flickr, Instagram or Facebook, set slide captions, links and SEO fields all from one page."
+msgstr ""
+
+msgid "Crop"
+msgstr ""
+
+msgid "Current settings will be removed without ability to restore."
+msgstr ""
+
+msgid "Customize slide content"
+msgstr ""
+
+msgid "Cyclically"
+msgstr ""
+
+msgid "Dashed"
+msgstr ""
+
+msgid "Data Tables Generator"
+msgstr ""
+
+msgid "Delay"
+msgstr ""
+
+msgid "Delete"
+msgstr ""
+
+msgid "Delete Slider"
+msgstr ""
+
+msgid "Delete selected items"
+msgstr ""
+
+msgid "Depth"
+msgstr ""
+
+msgid "Description"
+msgstr ""
+
+msgid "Digital Publication Plugin"
+msgstr ""
+
+msgid "Digital Publication WordPress Plugin by Supsystic for Magazines, Catalogs, Portfolios. Convert images, posts, PDF to the page flip book."
+msgstr ""
+
+msgid "Disable"
+msgstr ""
+
+msgid "Disable animation of slide transition"
+msgstr ""
+
+msgid "Display custom Google Maps. Set markers and locations with text, images, categories and links. Customize google map in a simple and intuitive way."
+msgstr ""
+
+msgid "Distance"
+msgstr ""
+
+msgid "Distance between slides"
+msgstr ""
+
+msgid "Do you really want to delete "
+msgstr ""
+
+msgid "Drop photos here to move them from the folder"
+msgstr ""
+
+msgid "Duration: "
+msgstr ""
+
+msgid "Easing"
+msgstr ""
+
+msgid "Edit image"
+msgstr ""
+
+msgid "Effect"
+msgstr ""
+
+msgid "Effect: "
+msgstr ""
+
+msgid "Effects"
+msgstr ""
+
+msgid "Email"
+msgstr ""
+
+msgid "Embeded video"
+msgstr ""
+
+msgid "Empty user data."
+msgstr ""
+
+msgid "Enable"
+msgstr ""
+
+msgid "Enable Pager"
+msgstr ""
+
+msgid "Enable Slideshow"
+msgstr ""
+
+msgid "Enable Touch"
+msgstr ""
+
+msgid "Enable for Membership:"
+msgstr ""
+
+msgid "Enable vertical arrows"
+msgstr ""
+
+msgid "Error"
+msgstr ""
+
+msgid "External link"
+msgstr ""
+
+msgid "Facebook"
+msgstr ""
+
+msgid "Failed to attach resources."
+msgstr ""
+
+msgid "Failed to change plugin: %s"
+msgstr ""
+
+msgid "Failed to import selected items."
+msgstr ""
+
+msgid "Failed to load settings"
+msgstr ""
+
+msgid "Failed to save settings. %s"
+msgstr ""
+
+msgid "Failed to update position."
+msgstr ""
+
+msgid "Failed to update positions."
+msgstr ""
+
+msgid "Featured Plugins"
+msgstr ""
+
+msgid "Flickr"
+msgstr ""
+
+msgid "Folder name:"
+msgstr ""
+
+msgid "Font color: "
+msgstr ""
+
+msgid "Font family: "
+msgstr ""
+
+msgid "Font size: "
+msgstr ""
+
+msgid "Free Mode"
+msgstr ""
+
+msgid "General"
+msgstr ""
+
+msgid "Get PRO"
+msgstr ""
+
+msgid "Get Pro"
+msgstr ""
+
+msgid "Get Pro to enable import"
+msgstr ""
+
+msgid "Google Drive"
+msgstr ""
+
+msgid "Google Drive authorization"
+msgstr ""
+
+msgid "Google Maps Easy"
+msgstr ""
+
+msgid "Height"
+msgstr ""
+
+msgid "Hello Supsystic Team!"
+msgstr ""
+
+msgid "Here you can import settings from other sliders, but right now, you have only one slider, create more - and see how it works"
+msgstr ""
+
+msgid "Hide arrows"
+msgstr ""
+
+msgid "How to get PRO version of plugin for FREE?"
+msgstr ""
+
+msgid "Image Sharing"
+msgstr ""
+
+msgid "Images"
+msgstr ""
+
+msgid "Import"
+msgstr ""
+
+msgid "Import from WordPress Media Library"
+msgstr ""
+
+msgid "Import from social networks"
+msgstr ""
+
+msgid "Import from your Facebook account"
+msgstr ""
+
+msgid "Import from your Flickr account"
+msgstr ""
+
+msgid "Import from your Google Drive account"
+msgstr ""
+
+msgid "Import from your Instagram account"
+msgstr ""
+
+msgid "Import from your Tumblr account"
+msgstr ""
+
+msgid "Import images"
+msgstr ""
+
+msgid "Import settings"
+msgstr ""
+
+msgid "Import settings from gallery"
+msgstr ""
+
+msgid "Import video"
+msgstr ""
+
+msgid "Import videos"
+msgstr ""
+
+msgid "Instagram"
+msgstr ""
+
+msgid "Install plugin"
+msgstr ""
+
+msgid "Invalid request identifier."
+msgstr ""
+
+msgid "Invalid slider identifier."
+msgstr ""
+
+msgid "It’s never been so easy to create and manage pricing and comparison tables with table builder. Any element of the table can be customise with mouse click."
+msgstr ""
+
+msgid "Jssor PRO"
+msgstr ""
+
+msgid "License"
+msgstr ""
+
+msgid "Lifetime for cached data"
+msgstr ""
+
+msgid "Lifetime for cached data:"
+msgstr ""
+
+msgid "Link"
+msgstr ""
+
+msgid "Link: "
+msgstr ""
+
+msgid "Links"
+msgstr ""
+
+msgid "Live Chat Plugin"
+msgstr ""
+
+msgid "Loading"
+msgstr ""
+
+msgid "Logout"
+msgstr ""
+
+msgid "Main"
+msgstr ""
+
+msgid "Map"
+msgstr ""
+
+msgid "Map has no properties"
+msgstr ""
+
+msgid "Margin"
+msgstr ""
+
+msgid "Media"
+msgstr ""
+
+msgid "Membership by Supsystic"
+msgstr ""
+
+msgid "Message"
+msgstr ""
+
+msgid "Mode"
+msgstr ""
+
+msgid "Most common FAQs"
+msgstr ""
+
+msgid "Mousewheel control"
+msgstr ""
+
+msgid "Multiple rows"
+msgstr ""
+
+msgid "Name"
+msgstr ""
+
+msgid "Navigation"
+msgstr ""
+
+msgid "New Folder"
+msgstr ""
+
+msgid "New Slider"
+msgstr ""
+
+msgid "New folder"
+msgstr ""
+
+msgid "New slider from selected"
+msgstr ""
+
+msgid "Newsletter Plugin"
+msgstr ""
+
+msgid "Next Button class selector"
+msgstr ""
+
+msgid "No"
+msgstr ""
+
+msgid "No detected"
+msgstr ""
+
+msgid "None"
+msgstr ""
+
+msgid "Number of post"
+msgstr ""
+
+msgid "Number of slides"
+msgstr ""
+
+msgid "One of the best plugin for creating Contact Forms on your WordPress site. Changeable fonts, backgrounds, an option for adding fields etc."
+msgstr ""
+
+msgid "One-to-One Touch"
+msgstr ""
+
+msgid "Open in new window"
+msgstr ""
+
+msgid "Open in new window: "
+msgstr ""
+
+msgid "Optimize title: "
+msgstr ""
+
+msgid "Other"
+msgstr ""
+
+msgid "Overview"
+msgstr ""
+
+msgid "PHPCode"
+msgstr ""
+
+msgid "PRO option"
+msgstr ""
+
+msgid "Pager"
+msgstr ""
+
+msgid "Pages: "
+msgstr ""
+
+msgid "Pagination Type"
+msgstr ""
+
+msgid "Pagination selector class selector"
+msgstr ""
+
+msgid "Parts"
+msgstr ""
+
+msgid "Pause"
+msgstr ""
+
+msgid "Photo Gallery Plugin"
+msgstr ""
+
+msgid "Photo Gallery Plugin with a great number of layouts will help you to create quality respectable portfolios and image galleries."
+msgstr ""
+
+msgid "PhpCode: "
+msgstr ""
+
+msgid "Please correct following errors:"
+msgstr ""
+
+msgid "Please install <a href=\"' ~ url ~ '\" target=\"_blank\">' ~ plug.name ~ '</a> plugin to use this feature!"
+msgstr ""
+
+msgid "Please note:"
+msgstr ""
+
+msgid "Please wait while the plugin to get the list of sliders..."
+msgstr ""
+
+msgid "Plugin for this type of slider is missing, or is available in the PRO version"
+msgstr ""
+
+msgid "Plugin options"
+msgstr ""
+
+msgid "Plugin settings"
+msgstr ""
+
+msgid "Popup Plugin"
+msgstr ""
+
+msgid "Position updated successfully!"
+msgstr ""
+
+msgid "Position: "
+msgstr ""
+
+msgid "Positions are successfully updated!"
+msgstr ""
+
+msgid "Posts and Pages"
+msgstr ""
+
+msgid "Posts: "
+msgstr ""
+
+msgid "Prev Button class selector"
+msgstr ""
+
+msgid "Prevent Clicks"
+msgstr ""
+
+msgid "Prevent accidental unwanted clicks"
+msgstr ""
+
+msgid "Preview"
+msgstr ""
+
+msgid "Pricing Table"
+msgstr ""
+
+msgid "Properties"
+msgstr ""
+
+msgid "Remove"
+msgstr ""
+
+msgid "Rename folder"
+msgstr ""
+
+msgid "Renew License"
+msgstr ""
+
+msgid "Report a bug"
+msgstr ""
+
+msgid "Require a new functionallity"
+msgstr ""
+
+msgid "Responsive Mode"
+msgstr ""
+
+msgid "Responsive Size Slider"
+msgstr ""
+
+msgid "Return to the slider"
+msgstr ""
+
+msgid "Roles:"
+msgstr ""
+
+msgid "Rotate"
+msgstr ""
+
+msgid "SEO"
+msgstr ""
+
+msgid "Save"
+msgstr ""
+
+msgid "Scroll bar Hide"
+msgstr ""
+
+msgid "Scrollbar selector class selector"
+msgstr ""
+
+msgid "Select"
+msgstr ""
+
+msgid "Select %s"
+msgstr ""
+
+msgid "Select Arrows"
+msgstr ""
+
+msgid "Select Bullet Control"
+msgstr ""
+
+msgid "Select Caption position"
+msgstr ""
+
+msgid "Select Controls type"
+msgstr ""
+
+msgid "Select Shadow"
+msgstr ""
+
+msgid "Select Text in effect"
+msgstr ""
+
+msgid "Select Text out effect"
+msgstr ""
+
+msgid "Select arrows"
+msgstr ""
+
+msgid "Select bullet control"
+msgstr ""
+
+msgid "Select categories"
+msgstr ""
+
+msgid "Select effect"
+msgstr ""
+
+msgid "Select module"
+msgstr ""
+
+msgid "Select plugin"
+msgstr ""
+
+msgid "Select posts to show"
+msgstr ""
+
+msgid "Select shadow effect"
+msgstr ""
+
+msgid "Select slider:"
+msgstr ""
+
+msgid "Select/unselect all photos"
+msgstr ""
+
+msgid "Selected"
+msgstr ""
+
+msgid "Set auto Height"
+msgstr ""
+
+msgid "Settings"
+msgstr ""
+
+msgid "Settings successfully updated!"
+msgstr ""
+
+msgid "Shortcode"
+msgstr ""
+
+msgid "Shortcode: "
+msgstr ""
+
+msgid "Show \"Read more\": "
+msgstr ""
+
+msgid "Show caption settings"
+msgstr ""
+
+msgid "Show date: "
+msgstr ""
+
+msgid "Show excerpt: "
+msgstr ""
+
+msgid "Show in top: "
+msgstr ""
+
+msgid "Show title: "
+msgstr ""
+
+msgid "Slide Shadows"
+msgstr ""
+
+msgid "SlideShadows"
+msgstr ""
+
+msgid "Slider \"%s\" successfully created."
+msgstr ""
+
+msgid "Slider Name"
+msgstr ""
+
+msgid "Slider Name:"
+msgstr ""
+
+msgid "Slider Plugin"
+msgstr ""
+
+msgid "Slider Sharing"
+msgstr ""
+
+msgid "Slider Template Design Builder"
+msgstr ""
+
+msgid "Slider by Supsystic"
+msgstr ""
+
+msgid "Slider height"
+msgstr ""
+
+msgid "Slider name"
+msgstr ""
+
+msgid "Slider title:"
+msgstr ""
+
+msgid "Slider width"
+msgstr ""
+
+msgid "Sliders"
+msgstr ""
+
+msgid "Sliders List"
+msgstr ""
+
+msgid "Slides Per View"
+msgstr ""
+
+msgid "Slideshow Controls"
+msgstr ""
+
+msgid "Slideshow Speed"
+msgstr ""
+
+msgid "Social Share Buttons"
+msgstr ""
+
+msgid "Social Sharing"
+msgstr ""
+
+msgid "Social share buttons to increase social traffic and popularity. Social sharing to Facebook, Twitter and other social networks."
+msgstr ""
+
+msgid "Solid"
+msgstr ""
+
+msgid "Some errors occurred while sending mail please send your message trough this contact form:"
+msgstr ""
+
+msgid "Space Between"
+msgstr ""
+
+msgid "Standard"
+msgstr ""
+
+msgid "Start slider on a random slide"
+msgstr ""
+
+msgid "Starting Slide"
+msgstr ""
+
+msgid "Steps"
+msgstr ""
+
+msgid "Stretch"
+msgstr ""
+
+msgid "Subject"
+msgstr ""
+
+msgid "Successfully removed!"
+msgstr ""
+
+msgid "Supported platforms: %s."
+msgstr ""
+
+msgid "Supports Youtube and Vimeo. URL will be converted to embed automatically."
+msgstr ""
+
+msgid "Supsystic Newsletter plugin for automatic mailing of your letters. You will have no need to control it or send them manually. No coding, hard skills or long hours of customizing are required."
+msgstr ""
+
+msgid "Swipe Threshold"
+msgstr ""
+
+msgid "Swiper PRO"
+msgstr ""
+
+msgid "Text Animation"
+msgstr ""
+
+msgid "Text align"
+msgstr ""
+
+msgid "Text align: "
+msgstr ""
+
+msgid "Text color"
+msgstr ""
+
+msgid "Text color: "
+msgstr ""
+
+msgid "Text in effect"
+msgstr ""
+
+msgid "Text out effect"
+msgstr ""
+
+msgid "Text size"
+msgstr ""
+
+msgid "Text: "
+msgstr ""
+
+msgid "The Best WordPress PopUp option plugin to help you gain more subscribers, social followers or advertisement. Responsive pop-ups with friendly options."
+msgstr ""
+
+msgid "The field \"%s\" available only for numeric values"
+msgstr ""
+
+msgid "The time in seconds after which the cache will be considered obsolete. Default: 86400 (24 hours)."
+msgstr ""
+
+msgid "The title can\'t be empty"
+msgstr ""
+
+msgid "Thumbnails"
+msgstr ""
+
+msgid "Thumbnails Slider Navigation"
+msgstr ""
+
+msgid "Thumbnails Type"
+msgstr ""
+
+msgid "Thumbnails margin"
+msgstr ""
+
+msgid "Title"
+msgstr ""
+
+msgid "Title Speed"
+msgstr ""
+
+msgid "Title successfully updated"
+msgstr ""
+
+msgid "Topic"
+msgstr ""
+
+msgid "Total images: "
+msgstr ""
+
+msgid "Total videos: "
+msgstr ""
+
+msgid "Touch"
+msgstr ""
+
+msgid "Transition"
+msgstr ""
+
+msgid "Transition Speed"
+msgstr ""
+
+msgid "Translation"
+msgstr ""
+
+msgid "Tumblr"
+msgstr ""
+
+msgid "Type"
+msgstr ""
+
+msgid "Unable to delete selected slider"
+msgstr ""
+
+msgid "Unable to find requested slider."
+msgstr ""
+
+msgid "Unable to save chosen photo %s: %s"
+msgstr ""
+
+msgid "Unable to update the title. Try again later"
+msgstr ""
+
+msgid "Unfortunately Coin slider don\'t support video. Would you like to change slider?"
+msgstr ""
+
+msgid "Upload from Facebook"
+msgstr ""
+
+msgid "Upload from Flickr"
+msgstr ""
+
+msgid "Upload from Google Drive"
+msgstr ""
+
+msgid "Upload from Instagram"
+msgstr ""
+
+msgid "Upload from Tumblr"
+msgstr ""
+
+msgid "Upload new images"
+msgstr ""
+
+msgid "Upload to images"
+msgstr ""
+
+msgid "Upload your images from Google Drive CDN"
+msgstr ""
+
+msgid "Upload your images from the Facebook Media Library"
+msgstr ""
+
+msgid "Upload your images from the Flickr Media Library"
+msgstr ""
+
+msgid "Upload your images from the Instagram Media Library"
+msgstr ""
+
+msgid "Upload your images from the Tumblr Media Library"
+msgstr ""
+
+msgid "Upload your images from the WordPress Media Library"
+msgstr ""
+
+msgid "Use build-in caching:"
+msgstr ""
+
+msgid "User roles that can use plugin. Administrator is included by default."
+msgstr ""
+
+msgid "Vertical align: "
+msgstr ""
+
+msgid "Vertical arrows mode"
+msgstr ""
+
+msgid "Video URL"
+msgstr ""
+
+msgid "Video URL:"
+msgstr ""
+
+msgid "Video has no properties"
+msgstr ""
+
+msgid "Video tutorial will be added soon"
+msgstr ""
+
+msgid "We don\'t collect statistics on you, we only collect the errors encountered during use in order to improve our product."
+msgstr ""
+
+msgid "Website"
+msgstr ""
+
+msgid "Width"
+msgstr ""
+
+msgid "Yes"
+msgstr ""
+
+msgid "You have an incredible opportunity to get PRO version for free. Make Translation of plugin. It will be amazing if you take advantage of this offer!"
+msgstr ""
+
+msgid "You have no '~ plug.plural ~' for now. <a href=\"/wp-admin/admin.php?page='~ plug.slug ~'\" target=\"_blank\">Create</a> it first."
+msgstr ""
+
+msgid "You have no Social Sharing projects for now."
+msgstr ""
+
+msgid "You have no images"
+msgstr ""
+
+msgid "You have no sliders for now. Create your first Slider."
+msgstr ""
+
+msgid "You haven’t got any images yet."
+msgstr ""
+
+msgid "You must enter URL."
+msgstr ""
+
+msgid "You must enter Youtube or Vimeo URL."
+msgstr ""
+
+msgid "You must enter only Youtube URL."
+msgstr ""
+
+msgid "You need to install Membership by Supsystic to use this feature. "
+msgstr ""
+
+msgid "You need to install Social Share Buttons by Supsystic to use this feature."
+msgstr ""
+
+msgid "You will not be able to update your pro version with expired license"
+msgstr ""
+
+msgid "Your message successfully send. We contact you soon."
+msgstr ""
+
+msgid "Your premium support is expired in ' ~ days ~ ' days"
+msgstr ""
+
+msgid "bullets"
+msgstr ""
+
+msgid "flip-limitRotation"
+msgstr ""
+
+msgid "fraction"
+msgstr ""
+
+msgid "from Google Maps Easy plugin"
+msgstr ""
+
+msgid "from your admin area, or visit it's official page on Wordpress.org"
+msgstr ""
+
+msgid "here."
+msgstr ""
+
+msgid "pixels"
+msgstr ""
+
+msgid "progress"
+msgstr ""
+
+msgid "then just reload page with your Slider settings, and you will see list with available Social Projects for your Slider."
+msgstr ""
+
